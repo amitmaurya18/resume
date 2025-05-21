@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Resume of Amit Maurya - Full Stack Developer specialized in Java, Spring Boot, and Angular, with experience in logistics and healthcare systems." />
+  <title>Amit Maurya – Full Stack Developer Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      background: #f0f8ff;
+      color: #333;
+      transition: background 0.3s, color 0.3s;
+    }
+    body.dark {
+      background: #1e1e1e;
+      color: #ddd;
+    }
+    header {
+      background: linear-gradient(to right, #74ebd5, #acb6e5);
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+      position: relative;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    header img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      padding: 1rem;
+      background: #dfe9f3;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    nav a {
+      color: #2c3e50;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #0077cc;
+    }
+    .toggle-btn, .pdf-btn {
+      position: absolute;
+      top: 1rem;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .toggle-btn {
+      right: 11rem;
+      background: #fff;
+      color: #2c3e50;
+    }
+    .pdf-btn {
+      right: 1rem;
+      background: #007bff;
+      color: white;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: 1.5rem auto;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    }
+    body.dark section {
+      background: #2a2a2a;
+    }
+    .skills ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      list-style: none;
+      padding: 0;
+    }
+    .skills li {
+      background: #bae6fd;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    body.dark .skills li {
+      background: #444;
+      color: #eee;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: linear-gradient(to right, #74ebd5, #acb6e5);
+      color: #fff;
+      margin-top: 2rem;
+      box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+    }
+    @media (max-width: 600px) {
+      header, section, footer, nav {
+        padding: 1rem;
+      }
+    }
+    @media print {
+      .toggle-btn,
+      .pdf-btn {
+        display: none !important;
+      }
+      body {
+        background: white !important;
+        color: black !important;
+      }
+      section {
+        background: white !important;
+        box-shadow: none !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="resume">
+    <header>
+      <button class="toggle-btn" aria-label="Toggle dark mode" onclick="document.body.classList.toggle('dark')">🌗 Toggle Dark Mode</button>
+      <button class="pdf-btn" aria-label="Download resume as PDF" onclick="downloadPDF()">📄 Download PDF</button>
+      <img src="images/amit.jpg" alt="Amit Maurya"/>
+      <h1>AMIT MAURYA</h1>
+      <p>Software Engineer</p>
+      <p>
+      <a href="mailto:amitmaurya.aps@gmail.com">amitmaurya.aps@gmail.com</a> |
+      <a href="https://www.linkedin.com/in/amitmaurya18/" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+      <a href="https://github.com/amitmaurya18" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </p>
+      Gurgaon, India |
+      +91-8948026773
+      <p>
+
+      </p>
+    </header>
+
+    <nav>
+      <a href="#summary">Summary</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#additional">More Info</a>
+    </nav>
+
+    <section id="summary">
+      <h2>Professional Summary</h2>
+      <p>Full Stack Software Developer with expertise in frontend and backend development, experience in leading cross functional teams</p>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>Java (Advanced)</li><li>JavaScript</li><li>Spring Boot</li><li>Hibernate</li><li>Spring Security</li>
+        <li>Microservices</li><li>REST</li><li>SOAP</li><li>MySQL</li><li>AngularJs</li><li>Oracle (basic)</li>
+        <li>JSF</li><li>JSP</li><li>HTML</li><li>CSS</li><li>Postman</li><li>SOAP UI</li><li>Git</li>
+        <li>AWS (EC2, S3)</li><li>Maven</li><li>Gradle</li><li>JWT</li><li>SSL/TLS</li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Professional Experience</h2>
+      <p><strong>Safexpress — Junior Manager - IT</strong><br>Jan 2025 – Present | Gurgaon</p>
+      <ul>
+        <li>Delivered custom logistics APIs for Bosch, Ashok Leyland, Raymonds, Havells etc.</li>
+        <li>Automated freight workflows, enabling 25% faster processing via Spring Boot & Apache Velocity.</li>
+        <li>Built real-time tracking with Oracle and automated alerts, reducing support load by 40%.</li>
+        <li>Digitized Proof of Delivery (POD) with OCR, SHA-256 & AWS S3, reducing disputes by 30%.</li>
+        <li>Scaled platform to 50K+ daily API calls using Redis and AWS EC2 Auto Scaling.</li>
+      </ul>
+
+      <p><strong>Gravit Infosystem Private Limited — Full Stack Developer</strong><br>May 2024 – Jan 2025 | Delhi</p>
+      <ul>
+        <li>Engineered RESTful microservices supporting Health transactions for Government, private, Semi-Government across India.</li>
+        <li>Gravit works with WHO and manages almost all of WHO's health-related projects in India.</li>
+        <li>Worked with HMIS Government Teams and Clients during the Projects.</li>
+        <li>Deployed services on AWS and ensured high availability and secure communication via JWT.</li>
+      </ul>
+
+      <p><strong>TraQiQ Solution Private Limited — Full Stack Developer</strong><br>May 2022 – Apr 2024 | Noida</p>
+      <ul>
+        <li>Developed Inventory and Complaint Management Systems using Spring Boot.</li>
+        <li>Implemented role-based authentication and multi-branch data handling with Oracle.</li>
+        <li>Generated real-time reports and deployed services on AWS.</li>
+        <li>Worked with Multiple Teams and Clients during the Projects.</li>
+        <li>Work with experienced team members to conduct root cause analysis of issues, review new and existing code.</li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <p><strong>B.Tech in Computer Science</strong><br>St. Andrews Institute of Technology and Management (MDU) | 2018-2022<br>CGPA: 7.67</p>
+      <p><strong>Intermediate</strong><br>Central Public School | 2017<br>Percentage: 79.2</p>
+      <p><strong>High School</strong><br>Central Public School | 2015<br>CGPA: 8.4</p>
+    </section>
+
+    <section id="additional">
+      <h2>Additional Information</h2>
+      <p><strong>Date of Birth:</strong> 18 March 2000</p>
+      <p><strong>Nationality:</strong> Indian</p>
+      <p><strong>Languages:</strong> English, Hindi</p>
+      <p>I hereby declare that the information provided is true to the best of my knowledge.</p>
+    </section>
+
+    <footer>
+      <p>
+      📧 <a href="mailto:amitmaurya.aps@gmail.com">amitmaurya.aps@gmail.com</a> |
+      🔗 <a href="https://www.linkedin.com/in/amitmaurya18/" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+      📍 Gurgaon, India
+      </p>
+    </footer>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script>
+  function downloadPDF() {
+    // Hide the toggle and PDF buttons before generating the PDF
+    const toggleBtn = document.querySelector('.toggle-btn');
+    const pdfBtn = document.querySelector('.pdf-btn');
+    toggleBtn.style.display = 'none';
+    pdfBtn.style.display = 'none';
+
+    const resume = document.getElementById('resume');
+    const opt = {
+      margin: 0.5,
+      filename: 'Amit_Maurya_Resume.pdf',
+      image: { type: 'jpeg', quality: 0.98 },
+      html2canvas: { scale: 2 },
+      jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' }
+    };
+
+    html2pdf().set(opt).from(resume).save().then(() => {
+      // Restore buttons after PDF generation
+      toggleBtn.style.display = 'inline-block';
+      pdfBtn.style.display = 'inline-block';
+    });
+  }
+</script>
+
+</body>
+</html>
